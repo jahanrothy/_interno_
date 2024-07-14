@@ -1,0 +1,24 @@
+{
+  "name": "interno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./css/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/jahanrothy/interno.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahanrothy/interno/issues"
+  },
+  "homepage": "https://github.com/jahanrothy/interno#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
